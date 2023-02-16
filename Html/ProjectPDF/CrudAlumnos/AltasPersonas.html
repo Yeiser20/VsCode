@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/Css/AltasCss.css">
+    <title>Altas</title>
+</head>
+<body>
+    <nav class="Formulario">
+            <h1>ALTAS PERSONAS</h1>
+            <form action="Header.html">
+                <label for="">Tipo de usuario</label>
+                <br>
+                <select name="usuario">
+                    <option value="Alumno">Alumn@</option>
+                    <option value="Profesor">Profesor@</option>
+                    <option value="Coordinador">Coordinador@</option>
+                </select>
+                <div class="informacionPersonal">
+                    <h2>INFORMACION PERSONAL</h2>
+                    <input type="text" placeholder="Nombre(s)" name="nombre" required>
+                    <input type="text" placeholder="Primer Apellido" name="Papellido" required>
+                    <input type="text" placeholder="Segundo Apellido" name="Sapellido" required>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Nacionalidad" name="Nacionalidad" required>
+                    <br><br>
+                    <label for="">Fecha de nacimiento <input type="date" name="FechaNac" id="FechaNac" required></label>
+                    <label>Estado civil</label>
+                    <select name="EstadoCivil" id="ec">
+                        <option value="Soltero">Soltero</option>
+                        <option value="Soltero">Casado</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="">Sexo</label>
+                    <select name="sexo" id="sexo">
+                        <option value="Soltero">Masculino</option>
+                        <option value="Soltero">Femenino</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input type="number" placeholder="telefono fijo" required name="Tfijo" maxlength="10">
+                    <input type="tel" placeholder="telefono movil" required name="Tmovil" maxlength="10">
+                    <input type="email" placeholder="Email Personal" required name="email"> 
+                </div>
+                <br>
+                <div class="informacionDomicilio">
+                    <h2>INFORMACION DOMICILIARIA</h2>
+                    <input type="text" placeholder="País" required name="Pais">
+                    <input type="text" placeholder="Estado" required name="Estados">
+                    <input type="text" placeholder="Municipio o Delegacion" required name="MunDel">
+                    <br><br>
+                    <input type="text" placeholder="Colonia" required name="Colonia">
+                    <input type="text" placeholder="Calle" required name="Calle">
+                    <br><br>
+                    <input type="number" placeholder="Numero exterior" required name="Nexterior">
+                    <input type="number" placeholder="Numero Iterior" required name="Ninterior">
+                    <input type="number" placeholder="Codigo postal" required name="Cp" maxlength="5">
+
+                </div>
+                <br>
+                <input type="submit" value="Guardar">
+            </form>
+    </nav>  
+</body>
+</html>

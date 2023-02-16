@@ -1,0 +1,57 @@
+/*quitamos los estilos que tienen por defecto las listas*/
+*{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+/*
+.variable{
+    border : tamaño color tiṕo_linea
+    o
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 10px;
+
+
+    background-size: alto ancho;
+    background: color, url, repeat posicion posicion/ dimeciones imagen 100px 100px
+
+    margin: izquierda derecha arriba abajo;
+
+    overflow: poder ver o no el contenido dentro de un elemento
+    outline: es un border despues del borde pero antes del margin
+
+    text-shadow : cuantoseMueveALaDerecha haciaAbajo nivel_degradado color 
+    
+}
+
+a:link{ antes de ser visitado
+
+}
+a:visited{ despues de ser visitado
+
+}
+a:hover{cuando se encuentra sobre el el mause
+
+}
+a:active{ se encuentra activo al presionar sobre encima
+
+}
+
+*/
+
+header{
+    background-color: blue;
+    padding: 5px 10px;
+}
+
+.lista1{
+    display: inline;
+}
+.label{
+    display: inline-block;
+    padding: 2px;
+    background-color: aqua;
+    text-align: center;
+    float: center;
+}

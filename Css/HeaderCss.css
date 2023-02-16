@@ -1,0 +1,43 @@
+*{
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    margin: 0%;
+}
+header{
+    background-color: darkblue;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.seccion1 img{
+    width: 200px;
+    height: 70px;
+    padding: 50px;
+    margin: 20px;
+}
+.seccion2 ul li{
+    display: inline-block;
+    background-color: aliceblue;
+}
+.seccion3 ul li{
+    display: inline-block;
+    background-color: aliceblue;
+}
+.submenu{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    display: block;
+    padding: 10px 20px;
+}
+a:hover{
+    background-color: aqua;
+}
+.submenu li{
+    position: absolute;
+}

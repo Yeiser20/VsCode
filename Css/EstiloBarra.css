@@ -1,0 +1,15 @@
+*{
+    font-size: 20px;
+    font-style: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.BarraMenu{
+background-color: aqua;
+display: block;
+}
+.menu a{
+    background-color: azure;
+    display: ;
+}

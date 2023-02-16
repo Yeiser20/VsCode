@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif; ;
+    font-size: 20px;
+    margin: 0;
+}
+/*FONDO DEL BODY CON IMAGEN DE VIANCO*/
+body{
+    background-image: url(https://vianco.uaemex.mx/wp-content/uploads/2021/03/vianco01.jpg);
+    background-size: unset;
+}
+/*ESTILOS DE LA BARRA DEL HEADER */
+.header{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 5px;
+    width: 100%;
+    position: relative;
+
+}
+.tokenP {
+    display: inline-block;
+    background-color: aqua;
+}
+header div{
+    display: inline-block;
+}
+.finde p{ 
+    background-color: blueviolet;
+    height: 100px;
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    font-size: 16px;
+    text-decoration: none;
+}
+body{
+    background-color: azure;
+}
+.Formulario{
+    margin: 10%;
+    padding: 5%;
+    text-align: center;
+    border: solid;
+    box-shadow: 0px 0px 20px 5px black; /* box-shadow: x, y, difuminadosombra, tamañoSombra, color*/
+}
+select{
+    width: 100px;
+    border: solid 2px black ;
+}
+.Formulario h1{
+    font-size: 2rem;
+}
+.informacionPersonal input{
+    width: 150px;
+    border: solid 2px;
+}
+.informacionPersonal h2{
+    font-size: 2rem;
+}
+.informacionDomicilio{
+    background-color: aliceblue;
+}
+.informacionDomicilio input{
+    width: 150px;
+    border: solid 2px;
+}
